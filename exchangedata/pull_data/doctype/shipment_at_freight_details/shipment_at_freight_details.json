@@ -107,7 +107,6 @@
   },
   {
    "columns": 1,
-   "fetch_from": "item_id.stock_uom",
    "fieldname": "uom",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -117,7 +116,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-12-14 06:43:13.632515",
+ "modified": "2023-06-15 17:50:45.640565",
  "modified_by": "Administrator",
  "module": "Pull Data",
  "name": "Shipment at Freight Details",
