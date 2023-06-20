@@ -112,11 +112,13 @@
    "label": "Received Qty"
   },
   {
+   "fetch_from": "item_id.customs_tariff_number",
    "fieldname": "customs_tariff_number",
    "fieldtype": "Data",
    "label": "Customs Tariff Number"
   },
   {
+   "fetch_from": "item_id.mineco_mi",
    "fieldname": "mineco_mi",
    "fieldtype": "Data",
    "label": "Partida Autorizada MI"
@@ -125,7 +127,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-02-23 22:31:13.070647",
+ "modified": "2023-06-19 14:34:04.377400",
  "modified_by": "Administrator",
  "module": "Pull Data",
  "name": "Pre-Consolidados Details",

@@ -82,6 +82,7 @@
    "label": "Received Qty"
   },
   {
+   "fetch_from": "item_id.customs_tariff_number",
    "fieldname": "customs_tariff_number",
    "fieldtype": "Data",
    "label": "Customs Tariff Number"
@@ -94,6 +95,7 @@
    "options": "currency"
   },
   {
+   "fetch_from": "item_id.mineco_mi",
    "fieldname": "mineco_mi",
    "fieldtype": "Data",
    "label": "Partida Autorizada MI"
@@ -118,7 +120,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-12-13 10:06:30.710587",
+ "modified": "2023-06-19 14:30:01.979890",
  "modified_by": "Administrator",
  "module": "Pull Data",
  "name": "Consolidated Cargo Order Details",
