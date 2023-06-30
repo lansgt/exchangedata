@@ -21,7 +21,8 @@
   "column_break_9",
   "base_total",
   "column_break_13",
-  "total"
+  "total",
+  "ff_tracking2"
  ],
  "fields": [
   {
@@ -111,11 +112,16 @@
    "fieldtype": "Select",
    "label": "Series",
    "options": "Pre-Consolidados-.YYYY.-"
+  },
+  {
+   "fieldname": "ff_tracking2",
+   "fieldtype": "Data",
+   "label": "ff_tracking2"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-12-29 19:06:48.956597",
+ "modified": "2023-06-19 22:08:20.697550",
  "modified_by": "Administrator",
  "module": "Pull Data",
  "name": "Pre-Consolidados",
