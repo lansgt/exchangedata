@@ -22,7 +22,6 @@ frappe.ui.form.on('Pre-Consolidados', {
 						supplier: frm.doc.supplier,
 					},
 					get_query_filters: {
-						docstatus: 1,
 						per_received: ["<", 100],
 						company: frm.doc.company
 					}
