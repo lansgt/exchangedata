@@ -22,9 +22,6 @@ def make_purchase_receipt(source_name, target_doc=None):
 		{
 			"Purchase Invoice": {
 				"doctype": "pre_consolidados",
-				"validation": {
-					"docstatus": ["=", 1],
-				},
 			},
 			"Purchase Invoice Item": {
 				"doctype": "Shipment at Freight Details",
