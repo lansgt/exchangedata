@@ -65,7 +65,8 @@ def make_consolidated_cargo(source_name, target_doc=None):
 					"name": "consolidated_cargo_order_details",
 					"purchase_invoice": "purchase_invoice",
 					"customs_tariff_number":"customs_tariff_number",
-					"received_qty":"received_qty"
+					"received_qty":"received_qty",
+					"uom":"uom"
 				}
 			}
 		},
