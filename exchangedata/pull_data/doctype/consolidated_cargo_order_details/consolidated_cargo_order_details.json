@@ -9,6 +9,7 @@
   "ship_at_freight",
   "purchase_invoice",
   "item_id",
+  "brand",
   "item_name",
   "qty",
   "rate",
@@ -115,12 +116,18 @@
    "fieldname": "uom",
    "fieldtype": "Data",
    "label": "UOM"
+  },
+  {
+   "fetch_from": "item_id.brand",
+   "fieldname": "brand",
+   "fieldtype": "Data",
+   "label": "Brand"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-06-19 14:30:01.979890",
+ "modified": "2024-07-27 17:05:19.916377",
  "modified_by": "Administrator",
  "module": "Pull Data",
  "name": "Consolidated Cargo Order Details",
