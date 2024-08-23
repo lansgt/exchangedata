@@ -60,7 +60,7 @@
    "fieldname": "shipment_status",
    "fieldtype": "Select",
    "label": "Shipment Status",
-   "options": "\nOrdenado\nDespachado Proveedor\nRecibido Miami\nDespachado Miami\nRecibido LANS"
+   "options": "\nOrdenado\nDespachado Proveedor\nRecibido Miami\nDespachado Miami\nLiberado Aduana GT\nRecibido LANS"
   },
   {
    "fieldname": "section_break_5",
